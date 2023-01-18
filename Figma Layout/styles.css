@@ -24,7 +24,7 @@
 .main-body {
   height: auto;
   width: 100%;
-  /* border: 1px solid rgb(0, 255, 153); */
+  /* border: 1px solid red; */
   background-color: #fef9f7;
 }
 
@@ -151,7 +151,7 @@
 /************* Main Body **************/
 
 nav {
-  height: 100px;
+  height: auto;
   width: 100%;
   display: flex;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.587);
@@ -161,24 +161,30 @@ nav {
 
 .nav-div1 {
   height: auto;
-  width: 65%;
+  width: 50%;
   /* border-right: 1px solid red; */
 }
 
 .nav-div2 {
-  width: 35%;
+  height: auto;
+  width: 50%;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
 }
 
 .ul-list {
+  height: auto;
+  width: 50%;
   display: flex;
   list-style: none;
+  /* border: 1px solid red; */
+  /* gap: 15%; */
+  margin-left: 10%;
 }
 
 .fonts {
-  font-size: 18px;
+  font-size: 1.3em;
   color: #84539d;
   margin-left: 10%;
   /* border: 1px solid red; */
@@ -213,6 +219,23 @@ nav {
   align-items: center;
 } */
 
+.Timer {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+
+
+}
+
+.Timer span {
+  /* border: 1px solid red; */
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .playa {
   height: 50px;
   width: 53px;
@@ -222,7 +245,7 @@ nav {
   /* position: relative; */
   animation: circle 0.7s linear infinite;
   justify-content: center;
-  margin-left: 60px;
+  margin-left: 5%;
   align-items: center;
 
 }
@@ -287,16 +310,24 @@ nav {
 }
 
 .playplus {
+  border: 1px solid red;
+  height: 75%;
+  width: 5%;
   padding: 21px;
-  margin-left: 0px;
+  margin-left: 5px;
   display: flex;
   flex-direction: column;
   gap: 20%;
+  align-items: center;
+}
+
+#circle-icon {
+  /* margin-top: 6px; */
 }
 
 .bar1 {
   height: 4px;
-  width: 100px;
+  width: 10%;
   background-color: rgb(193, 192, 192);
   margin-left: 20px;
   border-radius: 5px;
@@ -304,7 +335,7 @@ nav {
 
 .bar2 {
   height: 4px;
-  width: 50px;
+  width: 5%;
   background-color: rgb(193, 192, 192);
   margin-left: 420px;
   border-radius: 5px;
@@ -312,7 +343,7 @@ nav {
 
 .bar3 {
   height: 4px;
-  width: 50px;
+  width: 5%;
   background-color: rgb(193, 192, 192);
   margin-left: 320px;
   border-radius: 5px;
@@ -325,7 +356,7 @@ nav {
 
 .bar4 {
   height: 4px;
-  width: 520px;
+  width: 40%;
   background-color: rgb(245, 245, 73);
   margin-left: 20px;
   margin-top: 10px;
@@ -334,7 +365,7 @@ nav {
 
 .bar5 {
   height: 4px;
-  width: 370px;
+  width: 30%;
   background-color: rgb(143, 72, 184);
   margin-top: 10px;
   margin-left: 5px;
@@ -343,7 +374,7 @@ nav {
 
 .bar6 {
   height: 4px;
-  width: 250px;
+  width: 25%;
   background-color: rgb(158, 158, 158);
   margin-left: 10px;
   margin-top: 10px;
