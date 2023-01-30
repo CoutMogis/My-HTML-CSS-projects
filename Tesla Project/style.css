@@ -1,0 +1,925 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+#main {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/M3-Homepage-Desktop-LHD.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+
+
+}
+
+#nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 0;
+
+}
+
+#tesla-div {
+    height: auto;
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+#tesla-logo {
+    height: auto;
+    width: 120px;
+    cursor: pointer;
+}
+
+#ul-div {
+    height: auto;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: calc(100% - 90%);
+
+
+}
+
+#u-list {
+    list-style: none;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#l-elements {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    width: 15%;
+    border: none;
+    text-align: center;
+    padding-top: 3px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#l-elements:hover {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.182);
+
+}
+
+#ul-div2 {
+    height: auto;
+    width: calc(100% - 80%);
+    margin-top: 15px;
+    margin-right: 18px;
+    font-weight: bold;
+}
+
+#u-list2 {
+    list-style: none;
+
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#l-elements2 {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    width: 30%;
+    border: none;
+    text-align: center;
+    padding-top: 3px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+#l-elements2:hover {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.182);
+
+}
+
+#model-3 {
+    height: 80%;
+    /* width: 800px; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#model-3-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#model-3-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#model-3-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#model-3-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#model-3-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#model-3-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#model-3-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#down-animation-div {
+    height: 110px;
+    margin: auto;
+    width: max-content;
+
+}
+
+#down-animation {
+    margin-top: 10px;
+    animation: arrow 2s linear infinite;
+}
+
+@keyframes arrow {
+    0% {
+        margin-top: 60px;
+    }
+
+    10% {
+        margin-top: 70px;
+    }
+
+    18% {
+        margin-top: 70px;
+    }
+
+    24% {
+        margin-top: 60px;
+    }
+
+    38% {
+        margin-top: 64px;
+    }
+
+    45% {
+        margin-top: 64px;
+    }
+
+    50% {
+        margin-top: 60px;
+    }
+
+    70% {
+        margin-top: 60px;
+    }
+
+    100% {
+        margin-top: 60px;
+    }
+
+}
+
+#main2 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/Desktop-ModelY.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#model-y {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#model-y-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#model-y-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#model-y-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#model-y-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#model-y-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#model-y-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#model-y-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+#main3 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/Homepage-Model-S-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#model-S {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#model-S-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#model-S-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#model-S-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#model-S-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#model-S-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#model-S-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#model-S-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+
+
+
+#main4 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/Homepage-Model-X-Desktop-LHD.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#model-X {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#model-X-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#model-X-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#model-X-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#model-X-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#model-X-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#model-X-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#model-X-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+#main5 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/_25-HP-SolarPanels-D.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#SP {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#SP-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#SP-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#SP-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#SP-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#SP-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#SP-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#SP-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+
+#main6 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/Homepage-SolarRoof-Desktop-Global.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#SR {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#SR-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#SR-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#SR-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#SR-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#SR-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#SR-btext2-div {
+    height: auto;
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.684);
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#SR-btext2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+
+#main7 {
+    height: auto;
+    width: 100%;
+    background-image: url(/images/dd739764-bcaa-4263-9488-8c73bc9fb046.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+#AC {
+    height: auto;
+    /* width: 800px; */
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+
+#AC-text-div {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#AC-text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#AC-button-div {
+    height: auto;
+    width: 100%;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#AC-btext-div {
+    height: 40px;
+    width: 270px;
+    background-color: rgba(56, 56, 56, 0.896);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#AC-btext {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+
+#empty {
+    height: 120px;
+    width: 40px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries---*/
+
+@media screen and (max-width:1230px) {
+
+    .li1,
+    .li2 {
+        display: none;
+    }
+
+    .li3 {
+        margin-left: 70%;
+        width: max-content !important;
+    }
+
+
+}
+
+@media screen and (max-width:760px) {
+
+    /* #main{
+    border:1px solid red;
+    background-size:180% auto;
+    background-repeat: repeat;
+    background-repeat:space;
+   
+} */
+    #main,
+    #main2,
+    #main3,
+    #main4,
+    #main5,
+    #main6,
+    #main7 {
+        /* height: 80vh; */
+        /* width: 100%; */
+        /* transform: scale(1); */
+        /* background-size: cover; */
+        /* background-position:100px -100px -100px 300px; */
+    }
+
+
+    #model-3,
+    #model-y,
+    #model-S,
+    #model-X,
+    #SP,
+    #SR,
+    #AC {
+        width: 85%;
+        /* border: 1px solid red; */
+
+    }
+
+    #model-3-button-div,
+    #model-y-button-div,
+    #model-S-button-div,
+    #model-X-button-div,
+    #SP-button-div,
+    #SR-button-div,
+    #AC-button-div {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 250px;
+    }
+
+    #model-3-btext-div,
+    #model-y-btext-div,
+    #model-S-btext-div,
+    #model-X-btext-div,
+    #SP-btext-div,
+    #SR-btext-div,
+    #AC-btext-div {
+        width: 100%;
+    }
+
+    #down-animation-div {
+        height: 60px;
+    }
+
+    @keyframes arrow {
+        0% {
+            margin-top: 30px;
+        }
+
+        10% {
+            margin-top: 40px;
+        }
+
+        18% {
+            margin-top: 40px;
+        }
+
+        24% {
+            margin-top: 30px;
+        }
+
+        38% {
+            margin-top: 34px;
+        }
+
+        45% {
+            margin-top: 34px;
+        }
+
+        50% {
+            margin-top: 30px;
+        }
+
+        70% {
+            margin-top: 30px;
+        }
+
+        100% {
+            margin-top: 30px;
+        }
+
+    }
+
+    #model-3-btext,
+    #model-y-btext,
+    #model-S-btext,
+    #model-X-btext,
+    #SP-btext,
+    #SR-btext,
+    #AC-btext {
+        font-size: 20px;
+    }
+
+    #model-3-btext2-div,
+    #model-y-btext2-div,
+    #model-S-btext2-div,
+    #model-X-btext2-div,
+    #SP-btext2-div,
+    #SR-btext2-div {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -1px
+    }
+
+    #model-3-btext2,
+    #model-y-btext2,
+    #model-S-btext2,
+    #model-X-btext2,
+    #SP-btext2,
+    #SR-btext2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    #main,
+    #main2,
+    #main3,
+    #main4,
+    #main5,
+    #main6,
+    #main7 {
+        height: 100vh;
+    }
+
+    #model-3,
+    #model-y,
+    #model-S,
+    #model-X,
+    #SP,
+    #SR,
+    #AC {
+
+        margin-top: 100px;
+
+    }
+
+    #main {
+        background-image: url(/images/M3-Homepage-Mobile-LHD.jpeg);
+    }
+
+    #main2 {
+        background-image: url(/images/3304be3b-dd0a-4128-9c26-eb61c0b98d61.jpeg);
+    }
+
+    #main3 {
+        background-image: url(/images/Homepage-Model-S-Mobile-LHD.jpeg);
+    }
+
+    #main4 {
+        background-image: url(/images/Homepage-Model-X-Mobile-LHD.jpeg);
+    }
+
+    #main5 {
+        background-image: url(/images/_25-HP-SolarPanels-M.jpeg);
+    }
+
+    #main6 {
+        background-image: url(/images/Homepage-SolarRoof-Mobile-Global.webp);
+    }
+
+    #main7 {
+        background-image: url(/images/69095129-86c5-4f6c-a77a-740ceac04e82.jpeg);
+    }
+
+    /* #model-y-text, #model-S-text, #model-X-text, #model-3-text, #SP-text, #SR-text, #AC-text{
+        font-size: 2.5rem;
+    } */
+
+}
